@@ -1,5 +1,20 @@
 # ParallaxBackLayout
-[![Download](https://api.bintray.com/packages/anzewei/maven/com.github.anzewei/images/download.svg)](https://bintray.com/anzewei/maven/com.github.anzewei/_latestVersion)
+
+[![](https://jitpack.io/v/me.rosuh/ParallaxBackLayout.svg)](https://jitpack.io/#me.rosuh/ParallaxBackLayout)
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+```
+dependencies {
+	implementation 'me.rosuh:ParallaxBackLayout:Tag'
+}
+```
 
 Finish an Activity with parallax scrolling effect.
 
